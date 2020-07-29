@@ -7,9 +7,7 @@
 2. Clone this repository
 3. Run `mix escript.build`
 4. Add `./bin/` to your `$PATH`
-5. Run
 
-```bash
-$ echo '{"hello": "world"}' | jqex
-%{"hello" => "world"}
-```
+## Example
+
+![](example.png)
