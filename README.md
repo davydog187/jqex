@@ -1,21 +1,15 @@
 # Jqex
-
-**TODO: Add description**
+`jqex` is a command-line tool written as an [escript](https://hexdocs.pm/mix/master/Mix.Tasks.Escript.Build.html) to convert JSON into Elixir terms, inspired by the amazing [jq](https://stedolan.github.io/jq/)
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `jqex` to your list of dependencies in `mix.exs`:
+1. Install Elixir with [asdf](https://github.com/asdf-vm/asdf-elixir)
+2. Clone this repository
+3. Run `mix escript.build`
+4. Add `./bin/` to your `$PATH`
+5. Run
 
-```elixir
-def deps do
-  [
-    {:jqex, "~> 0.1.0"}
-  ]
-end
+```bash
+$ echo '{"hello": "world"}' | jqex
+%{"hello" => "world"}
 ```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/jqex](https://hexdocs.pm/jqex).
-
