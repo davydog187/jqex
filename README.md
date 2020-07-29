@@ -10,4 +10,4 @@
 
 ## Example
 
-![](example.png)
+![](output.png)
