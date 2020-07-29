@@ -8,7 +8,7 @@ defmodule Jqex.MixProject do
       elixir: "~> 1.10",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
-      escript: [main_module: Jqex]
+      escript: [main_module: Jqex, path: "bin/jqex"]
     ]
   end
 
